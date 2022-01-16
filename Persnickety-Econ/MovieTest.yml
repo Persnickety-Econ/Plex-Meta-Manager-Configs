@@ -1,1 +1,10 @@
-
+collections:
+  
+  Best of the 1960s:
+    tmdb_discover:
+      primary_release_date.gte: 01/01/1960
+      primary_release_date.lte: 12/31/1969
+      with_original_language: en
+      sort_by: popularity.desc
+      limit: 100
+    summary: A collection of the Top Content of the 1960s
